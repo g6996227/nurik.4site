@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: var(--header-z);
+  width: 100%;
+  padding: 4rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header-logo-icon {
+  display: block;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.brand {
+  margin-left: 1.2rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--light);
+}

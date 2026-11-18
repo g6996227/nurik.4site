@@ -1,0 +1,42 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 1.2rem 2.8rem;
+  border-radius: 4.4rem;
+  background-color: var(--light);
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.button--order {
+  padding: 1.4rem 3.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: transparent;
+  color: var(--light);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.button--large {
+  padding: 1.8rem 5rem;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  background-color: var(--light);
+  color: var(--primary);
+  border-radius: 5rem;
+}
+
+.button--shadow {
+  box-shadow: 0 10px 30px rgba(255, 51, 102, 0.2);
+}
